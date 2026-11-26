@@ -1,15 +1,11 @@
-# paint-application
+# My paint application
 
-1. Bigger Brush Range (1 to 100)
+## REQUIREMENTS COMPLETED
+### ✓ Bigger brush range
 So, what I did here, ma'am, was change the brush size slider. Before, the biggest brush size was only 30.
 
 Original:
 
-size_slider = tk.Scale(toolbar, from_=1, to=30, orient="horizontal",
-                       command=change_brush_size, length=100,
-                       bg=PEACH_PANEL, fg=TEXT_COLOR,
-                       troughcolor=PEACH_BUTTON, highlightthickness=0)
-size_slider.set(5)
 
 Revised:
 
